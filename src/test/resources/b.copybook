@@ -6,7 +6,8 @@
 
 01  PAYMENT.                                         
   03  CARDTYPE        PIC X(20).               
-  03  CARDNUM         PIC X(20).              
+  03  CARDNUM         PIC X(20).
+  03  CVV             PIC X(4).
                                                 
 01  WARD.                                         
   03  WARDNO          PIC XX.               
